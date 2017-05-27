@@ -6,12 +6,12 @@
 #    By: fdidelot <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/25 04:13:00 by fdidelot          #+#    #+#              #
-#    Updated: 2017/05/28 00:31:06 by snedir           ###   ########.fr        #
+#    Updated: 2017/05/28 01:15:31 by snedir           ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
 NAME = libftprintf.a
-FLAGS = -g -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 PRINTFSRC =	ft_printf.c \
 			apply_flags.c \
 			apply_width.c \
